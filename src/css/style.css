@@ -76,6 +76,9 @@ h1{
 .divContainer1{
     flex: 1;
 }
+.sectionUn div{
+    padding: 0 0.3rem 0 0.3rem;
+}
 .divContainer2{
     display: flex;
     flex-direction: column;
