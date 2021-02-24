@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+body hr{
+    margin: 0.5rem 0 0.5rem 0;
+}
+.container{
+    margin: 0 auto;
+    width: 75%;
+}
+
+/* HEADER */
+
+header{
+    padding-top: 1rem ;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+header ul li{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+header ul li a{
+    text-decoration: none;
+}
+#membreColor{
+    color: black;
+}
+#inscription a{
+    color: white;
+}
+#connexionColor{
+    color: red;
+}
+#inscription{
+    background-color: red;
+    border-radius: 5px;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    font-weight: normal;
+}
+
+/* SECTION NAV */
+
+.sectionNav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.sectionNav li{
+    padding: 1rem 0rem 1rem 0rem;
+}
+.sectionNav a{
+    color: gray;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+}
+
+/* SECTION UN */
+    
+.sectionUn{
+    display: flex;
+    flex-flow: row wrap;
+}
+.divContainer1{
+    flex: 1;
+}
+.divContainer2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sectionUn .imgfdp{
+    width: 100%;
+}
+.sectionUn .divContainer2 div{
+    padding-bottom: 0.5rem;
+}
+.divContainer3{
+    flex: 1;
+}
+.sectionUn h2{
+    padding: 1rem 0 1rem 0;
+    font-weight: normal;
+}
+.sectionUn .divContainer2 h2{
+    padding-left: 1rem;
+}
+.imgtext{
+    display: flex;
+    flex-direction: row;
+}
+.imgtext img{
+    height: 5rem;
+    width: 5rem;
+}
+.divArticle{
+    color: gray;
+}
+.sectionUn span{
+    display: inline-block;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+/* SECTION DEUX */
+
+.sectionDeux{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+
+}
+.sectionDeux div h2{
+    font-weight: normal;
+    font-size: 3rem;
+}
+.sectionDeux form{
+    background-color: rgb(224, 224, 224);
+}
+.sectionDeux form input{
+    background-color: rgb(224, 224, 224);
+    height: 2rem;
+    border: 0;
+}
+.sectionDeux button{
+    color: white;
+    border: 0;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* SECTION TROIS */
+
+.sectionTrois{
+    display: flex;
+    flex-flow: row wrap;
+}
+.sectionTrois h2{
+    padding: 1rem 0 1rem 0;
+    font-weight: normal;
+}
+.sectionTrois img{
+    width: 5rem;
+    height: 5rem;
+}
+.sectionTrois div span{
+    display: inline-block;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.sec3Container1{
+    flex: 8;
+}
+.sec3Container1 div div{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+.sec3Container1 div div div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.sec3Container2{
+    flex: 2;
+    margin-left: 2rem;
+}
+.sec3Container2 div{
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+.sec3Container2 div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sec3Container2 div div h3{
+    font-weight: normal;
+}
+.sec3Container2 .sec3Nbr{
+    font-family: 'Cormorant Garamond', serif;
+    padding-right: 0.5rem;
+    font-size: 2rem;
+}
